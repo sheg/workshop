@@ -1,1 +1,3 @@
 default: --no-source --color --format pretty
+
+prod: FIG_NEWTON_FILE=prod.yml --no-source --color --format pretty -t @wip -t ~@positive
